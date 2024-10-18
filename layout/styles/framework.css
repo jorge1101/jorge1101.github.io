@@ -11,7 +11,7 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .uppercase{text-transform:uppercase;}
 .capitalise{text-transform:capitalize;}
 .hidden{display:none;}
-.nospace{margin:0; padding:0; list-style:none;}
+
 .block{display:block;}
 .inline{display:inline-block;}
 .justified{text-align:justify;}
@@ -32,7 +32,7 @@ blockquote{display:block; position:relative; width:100%; margin:0; padding:30px;
 blockquote::before{display:block; position:absolute; top:0; left:0; font-family:"Font Awesome 5 Free"; font-weight:900; font-size:60px; line-height:60px; content:"\f10d"; z-index:-1;}
 
 .clear, .group{display:block;}
-.clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
+.clear::after, .group::before, .group::after{display:table; content:"";}
 .clear, .clear::after, .group, .group::after{clear:both;}
 
 a{outline:none; text-decoration:none;}
