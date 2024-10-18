@@ -371,7 +371,20 @@ input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
 #footer nav a{color:#FFFFFF;}
 #footer nav a:hover{color:#8EC837;}
 
+#footer {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre las secciones */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+}
 
+.one_half {
+    width: 48%; /* Ajusta el ancho de cada sección */
+    margin-right: 2%; /* Espacio entre las columnas */
+}
+
+.one_half:last-child {
+    margin-right: 0; /* Elimina el margen derecho de la última columna */
+}
 /* Copyright */
 #copyright{border-color:rgba(255,255,255,.2);}
 
