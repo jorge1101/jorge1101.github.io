@@ -175,8 +175,6 @@
 Settings are all different due to the optical similarity needed for different sized elements
 Delete this section if roundness is not wanted / required
 --------------------------------------------------------------------------------------------------------------- */
-.btn{border-radius:14px;}
-#footer input, #footer button{border-radius:12px;}
 
 
 /* Transition Fade
@@ -363,18 +361,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#8EC837 !important;}
 #latest article figure figcaption .meta li{border-color:rgba(0,0,0,.1);}
 
 
-/* Footer */
-#footer .heading{color:#FFFFFF;}
-#footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
 
-#footer input, #footer button{border-color:transparent;}
-#footer input{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
-#footer input:focus{background-color:#8EC837;}
-#footer button{color:#FFFFFF; background-color:#8EC837;}
-#footer button:hover{color:inherit; background-color:transparent; border-color:inherit;}
-
-#footer nav a{color:#FFFFFF;}
-#footer nav a:hover{color:#8EC837;}
 
 
 /* Copyright */
@@ -451,7 +438,6 @@ table a, #comments a{background-color:inherit;}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
-	#footer{}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
@@ -482,10 +468,7 @@ table a, #comments a{background-color:inherit;}
 	#testimonials article{max-width:80%;}
 	#latest > li{margin:0 auto 50px;}
 
-	#footer{}
-	#footer .latestimg > li, #footer .latestimg > li:nth-last-child(-n+3){display:inline-block; float:none; width:auto; margin:0 5% 5% 0;}
-	#footer .latestimg > li:last-child{margin-bottom:0;}
-	#footer .latestimg > li img{width:auto;}
+
 }
 
 @media screen and (max-width:450px){
